@@ -1,6 +1,5 @@
 package com.amyay;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -10,9 +9,9 @@ import java.util.logging.*;
 import com.google.gson.*;
 import com.google.gson.reflect.TypeToken;
 
-public class TestClass {
+public class HttpURLConnectionTest {
 
-    private static Logger log = Logger.getLogger("TestClass");
+    private static Logger log = Logger.getLogger("HttpURLConnectionTest");
 
     public static void main(String[] args) {
         try {
