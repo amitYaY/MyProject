@@ -18,7 +18,6 @@ public class StringRange {
                 if (j == i || j == i + 1 || a[i] == a[j - 1]) {
                     System.out.print(a[i] + ",");
                 } else {
-
                     System.out.print(a[i] + "-" + a[j - 1] + ",");
                 }
                 i = j;
